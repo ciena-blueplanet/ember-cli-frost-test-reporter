@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-mocha",
+  "name": "ember-cli-frost-test-reporter",
   "version": "0.10.2",
-  "description": "Mocha and Chai tests for ember-cli applications",
+  "description": "Mocha and Chai tests for ember-cli applications, suited for internal testing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/switchfly/ember-cli-mocha.git"
+    "url": ""
   },
   "keywords": [
     "ember-addon",
@@ -24,9 +24,7 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/switchfly/ember-cli-mocha/issues"
   },
-  "homepage": "https://github.com/switchfly/ember-cli-mocha",
   "dependencies": {
     "broccoli-babel-transpiler": "^5.5.0",
     "broccoli-concat": "^2.1.0",

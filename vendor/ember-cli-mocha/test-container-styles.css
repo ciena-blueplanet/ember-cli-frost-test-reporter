@@ -6,9 +6,19 @@
   width: 640px;
   height: 384px;
   overflow: auto;
-  z-index: 9999;
+  z-index: 100;
   border: 1px solid #ccc;
 }
-#ember-testing {
-  zoom: 50%;
+
+#mocha-stats {
+  top: 55px;
+}
+.toggle {
+  position: fixed;
+  bottom: 10px;
+  right:10px;
+  z-index:101;
+}
+.hidden {
+  visibility: hidden;
 }
