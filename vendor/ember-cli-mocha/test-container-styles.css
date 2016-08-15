@@ -1,0 +1,26 @@
+#ember-testing-container {
+  position: fixed;
+  background: white;
+  bottom: 0;
+  right: 0;
+  width: 640px;
+  height: 384px;
+  overflow: auto;
+  z-index: 100;
+  border: 1px solid #ccc;
+}
+#mocha-stats {
+  left:0;
+  bottom:0;
+  right:auto;
+  top:auto;
+  position:fixed;
+  color:black;
+  background-color: rgba(0,0,0,0.15);
+}
+.tabs {
+  z-index:11;
+}
+.hidden {
+  display: none;
+}
